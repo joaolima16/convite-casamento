@@ -1,0 +1,25 @@
+import Reveal from '../components/Reveal'
+import Swatches from '../components/Swatches'
+import { config } from '../data'
+import foto from '../assets/padrinhos.jpg'
+
+export default function Padrinhos() {
+  return (
+    <>
+      <Reveal as="h2" i={0}>Padrinhos</Reveal>
+      <Reveal as="p" i={1}>
+        Terno e camisa <b>pretos</b>, colete e gravata <b>Marsala</b>. Para finalizar, uma rosa marsala na lapela e um lenço <b>dourado</b> no bolso.
+      </Reveal>
+      <div className="figs">
+        <Reveal
+          as="img"
+          i={2}
+          className="fig-photo fig-suit"
+          src={foto}
+          alt="Terno preto com camisa preta, colete e gravata marsala, rosa na lapela e lenço dourado"
+        />
+      </div>
+      <Swatches cores={config.coresPadrinhos} />
+    </>
+  )
+}
