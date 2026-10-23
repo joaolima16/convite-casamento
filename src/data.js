@@ -8,13 +8,10 @@ export const config = {
 
   // [horário, descrição, destaque (1 = linha em destaque)]
   roteiro: [
-    ['15:30', 'Chegada dos padrinhos e madrinhas', 0],
-    ['16:00', 'Fotos com os noivos e ajustes finais', 0],
-    ['16:45', 'Organização da fila de entrada', 0],
-    ['17:00', 'Cerimônia', 1],
-    ['18:00', 'Fotos com todos os convidados', 0],
-    ['19:00', 'Recepção e jantar', 0],
-    ['21:00', 'Primeira dança e abertura da pista', 1],
+    ['17:30', 'Chegada dos padrinhos e madrinhas', 0],
+    ['18:00', 'Chegada dos convidados', 0],
+    ['18:30', 'Cerimônia', 1],
+    ['19:30', 'Início da festa', 0],
   ],
 
   dicas: [
