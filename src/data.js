@@ -30,6 +30,5 @@ export const config = {
   coresPadrinhos: [
     ['#16110F', 'Terno e camisa'],
     ['#5C1424', 'Colete e gravata'],
-    ['#D4B66A', 'Dourado'],
   ],
 }
