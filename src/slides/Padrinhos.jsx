@@ -8,7 +8,7 @@ export default function Padrinhos() {
     <>
       <Reveal as="h2" i={0}>Padrinhos</Reveal>
       <Reveal as="p" i={1}>
-        Terno preto e camisa <b>branca</b>, gravata <b>Marsala</b>. Para finalizar, uma rosa marsala na lapela.
+        Terno preto , e camisa <b>branca</b>e gravata <b>Marsala</b>. Para finalizar, uma rosa marsala na lapela.
       </Reveal>
       <div className="figs">
         <Reveal
