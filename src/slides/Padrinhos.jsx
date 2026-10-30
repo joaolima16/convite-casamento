@@ -1,7 +1,7 @@
 import Reveal from '../components/Reveal'
 import Swatches from '../components/Swatches'
 import { config } from '../data'
-import foto from '../assets/padrinhos.jpg'
+import foto from '../assets/padrinhos.jpeg'
 
 export default function Padrinhos() {
   return (
